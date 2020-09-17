@@ -1,5 +1,14 @@
 # Aaplus changelog
 
+## v1.10.1
+* SALG-992: Add cookieinformation script
+
+## v1.10.0
+* SUPPORT-1745: Added tiltags-id
+
+## v1.9.9
+* SUPPORT-1733: Moved email and stuff into parameters
+
 ## v1.9.8
 * SERV-206: Symfony Security Updates
 
