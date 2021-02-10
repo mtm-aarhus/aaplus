@@ -20,7 +20,6 @@ services:
       - PHP_MEMORY_LIMIT=128M
     volumes:
       - .:/app:delegated
-      - drush-cache:/root/.drush
 
   nginx:
     image: nginx:stable-alpine
