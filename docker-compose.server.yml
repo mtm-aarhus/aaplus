@@ -10,13 +10,13 @@ networks:
 
 services:
   phpfpm:
-    image: itkdev/php5.6-fpm:alpine
+    image: itkdev/php5.6-fpm:alpine-wkhtmltopdf
     restart: unless-stopped
     networks:
       - app
     environment:
       - PHP_MAX_EXECUTION_TIME=30
-      - PHP_MEMORY_LIMIT=128M
+      - PHP_MEMORY_LIMIT=256M
       - COMPOSER_VERSION=1
     volumes:
       - .:/app:delegated
